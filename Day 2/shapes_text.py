@@ -14,7 +14,10 @@ img[:] = 255,0,0 # BGR
 # cv2.rectangle(img, (100,50), (200,350), (0,0,255), 5)f
 
 # Circle
-cv2.circle(img, (400,50), 50, (0,0,255), 5)
+# cv2.circle(img, (400,50), 50, (0,0,255), 5)
+
+# put texts
+cv2.putText(img, "InceptionBD", (200,440), cv2.FONT_HERSHEY_COMPLEX,1, (0,255,0), 1)
 
 cv2.imshow("Image", img)
 cv2.waitKey(0)
