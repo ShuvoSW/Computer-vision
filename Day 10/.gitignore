@@ -15,3 +15,5 @@ data/
 
 venv/
 .env
+
+model.h5
